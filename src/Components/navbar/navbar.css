@@ -1,0 +1,83 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-container img{
+    width: 115px;
+    height: 34px;
+}
+
+.nav-links{
+    align-items: center;
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    flex: 1.25;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.links >p {
+    font-size: 17;
+    cursor: pointer;
+}
+
+.sign{
+    display: flex;
+    align-items: center;
+    flex: 0.75;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.sign >button {
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primaryText);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.change-lang{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.change-lang > select{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+@media screen and (max-width:1024px) {
+    
+}
+
+@media screen and (max-width:920px) {
+    .nav-links{
+        justify-content: space-evenly;
+    }
+
+    .links {
+        display: none;
+    }
+    .sign {
+        justify-content: space-evenly;
+    }
+    
+}
