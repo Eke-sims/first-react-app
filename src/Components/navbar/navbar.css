@@ -1,7 +1,15 @@
+nav{
+    display: flex;
+}
+
+
 .navbar-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    flex: 1;
+    margin: 1rem auto;
 }
 
 .logo-container{
@@ -64,20 +72,23 @@
     background: transparent;
 }
 
-@media screen and (max-width:1024px) {
-    
+@media screen and (max-width:1240px) {
+    .navbar-container{
+        flex: 0.9;
+    }
 }
 
 @media screen and (max-width:920px) {
-    .nav-links{
-        justify-content: space-evenly;
+    .navbar-container{
+        flex: 0.9;
+        justify-content: space-between;
     }
 
     .links {
         display: none;
     }
-    .sign {
-        justify-content: space-evenly;
+
+    .sign{
+        justify-self: flex-end;
     }
-    
 }

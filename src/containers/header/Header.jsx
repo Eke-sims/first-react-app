@@ -4,7 +4,7 @@ import play from '../../assets/Group 1.png'
 
 const Header = () => {
   return (
-    <div id='Header' className='header-container section-padding'>
+    <div id='Header' className='header-container section-container'>
 
       <div className="header-content">
 

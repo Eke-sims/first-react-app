@@ -77,3 +77,14 @@
     height: 100%;
 }
 
+@media screen and (max-width:1240px) {
+    .header-content{
+        flex: 0.45;
+    }
+  }
+  
+  @media screen and (max-width:920px) {
+    .image-container{
+        flex: 0.45;
+    }
+  }
