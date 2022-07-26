@@ -1,12 +1,16 @@
+section{
+    display: flex;
+}
+
 .header-container{
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 
 .header-content{
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .header-content h4{
@@ -72,19 +76,31 @@
 }
 
 .image-container{
-    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.header-image{
     width: 100%;
     height: 100%;
 }
 
 @media screen and (max-width:1240px) {
-    .header-content{
-        flex: 0.45;
+    .header-container{
+        width: 100%;
+    }    
+}
+
+
+@media screen and (max-width:814px) {
+    .header-container{
+        display: flex;
+        flex-direction: column !important;
     }
-  }
-  
-  @media screen and (max-width:920px) {
     .image-container{
-        flex: 0.45;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto;
     }
-  }
+}

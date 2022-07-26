@@ -91,4 +91,7 @@ nav{
     .sign{
         justify-self: flex-end;
     }
+    .nav-links{
+        justify-content: flex-end;
+    }
 }
