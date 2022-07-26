@@ -1,0 +1,34 @@
+.servicecard{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 190px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.servicecard:hover{
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+}
+
+.card-image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card-icon{
+    height: 50%;
+    width: 100%;
+}
+
+.card-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

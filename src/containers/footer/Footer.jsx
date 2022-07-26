@@ -2,7 +2,14 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div id='Footer'>Footer</div>
+    <section id='Footer'>
+      <div className='section-container footer-container'>
+        <div>
+          
+        </div>
+        <div>All rights reserved @Jadoo.co</div>
+      </div>
+    </section>
   )
 }
 

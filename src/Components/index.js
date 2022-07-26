@@ -1,3 +1,4 @@
 export { default as Cta} from './cta/Cta'
 export { default as Navbar} from './navbar/Navbar'
-export { default as Offer} from './offer/Offer'
+export { default as DestinationCard} from './destinationCard/DestinationCard'
+export { default as ServiceCard} from './serviceCard/ServiceCard' 
