@@ -1,0 +1,10 @@
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+}
+
+.avatar{
+    position: absolute;
+}

@@ -2,7 +2,9 @@ import './cta.css'
 
 const Cta = () => {
   return (
-    <div>Cta</div>
+    <div className='section-container cta-container'>
+      <h1>cta(coming soon)</h1>
+    </div>
   )
 }
 

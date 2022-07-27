@@ -1,4 +1,45 @@
 .footer-container{
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.footer-links-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-header{
+    height: 150px;
+    width: 200px;
+}
+
+.company-logo{
+    height: 54px;
+    width: 143px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+}
+
+.store-icon{
+    display: flex;
+}
+
+.social-icon{
+    height: 70px;
+    width: 70px;
+}
+
+.copywrite{
+    display: flex;
+    margin: 0 auto;
 }

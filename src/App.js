@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 
 import { Booking, Category, Destination, Footer, Header, Testimonial } from './containers';
-import { Navbar,Cta} from './Components'
+import { Navbar,Cta, Brands} from './Components'
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <div className='banner_bg'>
@@ -15,6 +15,7 @@ function App() {
       <Destination />
       <Booking />
       <Testimonial />
+      <Brands />
       <Cta />
       <Footer />
     </div>
