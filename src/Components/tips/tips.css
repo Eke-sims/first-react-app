@@ -1,0 +1,19 @@
+.tips-card{
+    align-items: center;
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    width: 395px;
+}
+
+.img-container{
+    align-items: center;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.desc-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
