@@ -2,15 +2,13 @@ import React from 'react';
 import './App.css';
 
 import { Booking, Category, Destination, Footer, Header, Testimonial } from './containers';
-import { Navbar,Cta, Brands} from './Components'
+import { Navbar, Cta, Brands} from './Components'
 
-const App = () => {
+function App () {
   return (
     <div className='App'>
-      <div className='banner_bg'>
-        <Navbar />
-        <Header />
-      </div>
+      <Navbar />
+      <Header />
       <Category />
       <Destination />
       <Booking />
