@@ -1,13 +1,13 @@
 import React from 'react'
 import './testimonialcard.css'
 
-const TestimonialCard = ({ imgUrl, testimonial, name, location }) => {
+const TestimonialCard = (props) => {
   return (
-    <div className='testimonial-container'>
-        <img src={imgUrl} alt="" className='avatar' />
-        <p className="testimonial">{testimonial}</p>
-        <p className="name">{name}</p>
-        <p className="location">{location}</p>
+    <div className='testimonialCard'>
+        <img src={props.img} alt="" className='avatar' />
+        <p className="testimonial">{props.testimonial}</p>
+        <p className="name">{props.name}</p>
+        <p className="location">{props.location}</p>
     </div>
   )
 }
