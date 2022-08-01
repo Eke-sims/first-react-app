@@ -103,4 +103,7 @@ section{
         justify-content: center;
         margin: 1rem auto;
     }
+    .header-title{
+        text-align: center;
+    }
 }

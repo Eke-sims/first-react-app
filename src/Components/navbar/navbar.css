@@ -1,5 +1,7 @@
 nav{
     display: flex;
+    background-color: rgba(100,50,255,0.1);
+    flex:1;
 }
 
 

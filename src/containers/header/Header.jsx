@@ -8,7 +8,7 @@ const Header = () => {
 
         <div className="header-content">
 
-          <h4>Best Destinations around the world</h4>
+          <h4 className='header-title'>Best Destinations around the world</h4>
           <h1>
             Travel, enjoy
             and live a new

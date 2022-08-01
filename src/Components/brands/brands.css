@@ -14,4 +14,8 @@
     .brands{
         justify-content: center;
     }
+
+    .brand-logo{
+        width: 100px;
+    }
 }

@@ -3,7 +3,7 @@ import './testimonial.css'
 const Testimonial = () => {
   return (
     <div className='section-Container testimonial-container'>
-      <h1>Testimonial(coming soon)</h1>
+      <h1>Testimonials (coming soon)</h1>
     </div>
   )
 }

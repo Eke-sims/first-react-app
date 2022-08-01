@@ -9,7 +9,7 @@ const Category = () => {
     <section>
       <div className="section-container category-container">
         <p className='section-title'>CATEGORY</p>
-        <h1>We Offer Best Services</h1>
+        <h1 className='category-title'>We Offer Best Services</h1>
         <div className='servicecard-container'>
           <ServiceCard imgUrl={group48} title='calculated weather' details='Engrossed listening. Park gate sell they west hard for the.'/>
           <ServiceCard imgUrl={group51} title='best flight' details='Engrossed listening. Park gate sell they west hard for the.'/>

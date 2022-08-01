@@ -7,7 +7,7 @@ const links = ['Destinations', 'Hotels', 'Flights','Bookings']
 const Navbar = () => {
   return (
     <nav>
-      <div className='navbar-container section-padding'>
+      <div className='navbar-container'>
 
         <div className="logo-container">
           <a href="#Header"><img src={logo} alt="logo" /></a>

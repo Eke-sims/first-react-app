@@ -7,7 +7,7 @@ const Destination = () => {
     <section>
       <div className='section-container destination-container'>
         <p className="section-title">TOP SELLING</p>
-        <h1>Top Destinations</h1>
+        <h1 className='destination-heading'>Top Destinations</h1>
         <div className="destinationcard-container">
           <DestinationCard imgUrl={italy} destination='Rome, italy' price='11k' days='10' />
           <DestinationCard imgUrl={london} destination='London, UK' price='4.2k' days='12' />

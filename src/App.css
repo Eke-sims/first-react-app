@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
   scroll-behavior: smooth;
 }
@@ -13,15 +12,13 @@ body{
   background-color: var(--bg-color);
 }
 
+section{
+  flex: 1;
+}
+
 .section-container{
   max-width: 1200px;
   margin: 2rem auto;
-}
-
-.banner_bg{
-  background-image: url(./assets/Mask\ Group\ 1@2x.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 @media screen and (max-width:1240px) {
