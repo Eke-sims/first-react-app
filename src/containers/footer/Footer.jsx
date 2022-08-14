@@ -20,21 +20,21 @@ const Footer = () => {
 
           <div className='footer-header'>
             <h4 className="link-header">Company</h4>
-            {companies.map((company) => {
+            {companies.map((company, key) => {
               return <p className="footer-link">{company}</p>
             })}
           </div>
 
           <div className='footer-header'>
             <h4 className="link-header">Contact</h4>
-            {contacts.map((contact) => {
+            {contacts.map((contact, key) => {
               return <p className="footer-link">{contact}</p>
             })}
           </div>
 
           <div className='footer-header'>
             <h4 className="link-header">More</h4>
-            {mores.map((more) => {
+            {mores.map((more, key) => {
               return <p className="footer-link">{more}</p>
             })}
           </div>

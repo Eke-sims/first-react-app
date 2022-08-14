@@ -5,12 +5,9 @@
     width: 100%;
 }
 
-.testimonial-section{
-    flex: 0.5;
-}
-
 .text-area{
     display: flex;
+    flex: 1;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
@@ -27,4 +24,22 @@
     border-radius: 50%;
     height: 12px;
     width: 12px;
+}
+
+.testimonialCard-container{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+@media screen and (max-width:700px) {
+    .testimonial-container{
+        flex-direction: column;
+    }
+
+    .testimonial-section{
+        margin-top: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
 }

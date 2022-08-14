@@ -18,7 +18,7 @@ const Booking = () => {
             <h1>Book Your Next Trip</h1>
           </div>
           <div className="tips-container">
-            {tips.map((tip) => {
+            {tips.map((tip, key ) => {
               return <Tips imgUrl={tip.imgUrl}  title={tip.title} desc={tip.desc} /> 
             })}
           </div>

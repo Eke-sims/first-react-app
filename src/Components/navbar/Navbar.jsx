@@ -15,7 +15,7 @@ const Navbar = () => {
 
         <div className="nav-links">
           <div className='links'>
-            {links.map((link) => {
+            {links.map((link, key) => {
               return <p>{link}</p>
             })}
 

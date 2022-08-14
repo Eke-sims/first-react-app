@@ -8,7 +8,7 @@ const brands = [ axon, jetstar, expedia, qantas, alitalia]
 const Brands = () => {
   return (
     <div className='section-container brands'>
-        {brands.map((brand) => {
+        {brands.map((brand, key) => {
             return <img src={brand} alt='brand logo' className='brand-logo' />
         })}
     </div>
